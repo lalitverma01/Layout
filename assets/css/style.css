@@ -35,9 +35,9 @@ body {
     transition: transform 0.3s ease;
 }
 
-/* .card:hover {
+.card:hover {
     transform: scale(1.05);
-} */
+}
 
 .card img {
     width: 100%;
