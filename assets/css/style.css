@@ -19,14 +19,12 @@ body {
     width: 100%;
 }
 
-/* Column container */
 .col-3 {
     width: 25%;
     box-sizing: border-box;
     margin-bottom: 20px;
 }
 
-/* Card style */
 .card {
     width: 100%;
     background-color: #fff;
@@ -64,13 +62,4 @@ body {
     line-height: 24.1px;
     text-align: center;
     color: #7B7B7B;
-}
-
-/* Card container */
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    width: 80%;
-    margin: auto;
 }
