@@ -27,7 +27,7 @@ const container = document.getElementById("cards-container");
 
 cardsData.forEach(card => {
     const colElement = document.createElement("div");
-    colElement.classList.add("col-3");
+    colElement.classList.add("col-12 col-md-6 col-xl-3");
 
     const cardElement = document.createElement("div");
     cardElement.classList.add("card");
